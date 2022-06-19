@@ -67,3 +67,4 @@ numpy
 ![](https://github.com/Coldtee/AIoT_hw5_optional/blob/master/optional%20img/24.png)
 
 web: https://aiothw5optional.herokuapp.com/
+不知道為甚麼，前面本地端可以從線上db找到data，印出highchart圖，步驟也都沒問題，結果最後成果跑不出來，所有步驟我都檢查過，甚至我拿我的程式碼跟老師的程式碼一個字一個字比對，結果還是跑不出來，尤其是heroku對Data的格式很嚴格，少一個空格就會報錯(對，就是在說Procfile)，最後我已經跟老師給的資料長的一模一樣，結果還是跑不出來QQ

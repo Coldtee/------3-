@@ -14,3 +14,8 @@ pandas
 numpy 
 
 ![](aiot_hw5_optional\optional img\1.png)
+
+## Step 2 : Git clone & environment setting
+參考老師影片與程式碼，將原本是mysql的部分改為psycopg2的語法
+
+![](aiot_hw5_optional\optional img\2.png)

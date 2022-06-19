@@ -65,3 +65,5 @@ numpy
 ## Step 8 : 成果
 同樣因為我是用自己組別的HW5，所以要加入Procfile(不是txt檔，否則會出現app error!)
 ![](https://github.com/Coldtee/AIoT_hw5_optional/blob/master/optional%20img/24.png)
+
+web: https://aiothw5optional.herokuapp.com/

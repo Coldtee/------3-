@@ -13,9 +13,36 @@ sklearn
 pandas  
 numpy 
 
-![](aiot_hw5_optional\optional img\1.png)
+![](https://github.com/Coldtee/AIoT_hw5_optional/blob/master/aiot_hw5_optional/optional%20img/1.png)
 
 ## Step 2 : Git clone & environment setting
 參考老師影片與程式碼，將原本是mysql的部分改為psycopg2的語法
 
-![](aiot_hw5_optional\optional img\2.png)
+![](https://github.com/Coldtee/AIoT_hw5_optional/blob/master/aiot_hw5_optional/optional%20img/2.png)
+
+## Step 3 : Heroku postgres設定
+參考老師影片與程式碼，將原本是mysql的部分改為psycopg2的語法
+![](https://github.com/Coldtee/AIoT_hw5_optional/blob/master/aiot_hw5_optional/optional%20img/3.png)
+![](https://github.com/Coldtee/AIoT_hw5_optional/blob/master/aiot_hw5_optional/optional%20img/4.png)
+![](https://github.com/Coldtee/AIoT_hw5_optional/blob/master/aiot_hw5_optional/optional%20img/5.png)
+![](https://github.com/Coldtee/AIoT_hw5_optional/blob/master/aiot_hw5_optional/optional%20img/6.png)
+
+## Step 4 : Heidi sql設定與Heroku postgres連線
+因為
+將postgres的Database Credentials填入heidi sql中
+![](https://github.com/Coldtee/AIoT_hw5_optional/blob/master/aiot_hw5_optional/optional%20img/7.png)
+![](https://github.com/Coldtee/AIoT_hw5_optional/blob/master/aiot_hw5_optional/optional%20img/8.png)
+![](https://github.com/Coldtee/AIoT_hw5_optional/blob/master/aiot_hw5_optional/optional%20img/9.png)
+![](https://github.com/Coldtee/AIoT_hw5_optional/blob/master/aiot_hw5_optional/optional%20img/10.png)
+![](https://github.com/Coldtee/AIoT_hw5_optional/blob/master/aiot_hw5_optional/optional%20img/11.png)
+![](https://github.com/Coldtee/AIoT_hw5_optional/blob/master/aiot_hw5_optional/optional%20img/12.png)
+
+因為sql有語法不同，所以要修改一些細節部分(例如'id' -> id)
+修改方法是參考老師影片中當老師匯入postgres.sql, 看上面的sql語法作修改
+![](https://github.com/Coldtee/AIoT_hw5_optional/blob/master/aiot_hw5_optional/optional%20img/13.png)
+
+## Step 5 : VScode 設定
+將postgres的Database Credentials填入vscode中
+![](https://github.com/Coldtee/AIoT_hw5_optional/blob/master/aiot_hw5_optional/optional%20img/14.png)
+
+## Step 6 : 執行

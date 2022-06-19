@@ -49,3 +49,5 @@ numpy
 ![](https://github.com/Coldtee/AIoT_hw5_optional/blob/master/aiot_hw5_optional/optional%20img/15.png)
 ![](https://github.com/Coldtee/AIoT_hw5_optional/blob/master/aiot_hw5_optional/optional%20img/16.gif)
 
+## Step 7 : Heroku & Github 連結
+

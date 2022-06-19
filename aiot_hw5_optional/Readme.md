@@ -45,4 +45,7 @@ numpy
 將postgres的Database Credentials填入vscode中
 ![](https://github.com/Coldtee/AIoT_hw5_optional/blob/master/aiot_hw5_optional/optional%20img/14.png)
 
-## Step 6 : 執行
+## Step 6 : Local執行
+![](https://github.com/Coldtee/AIoT_hw5_optional/blob/master/aiot_hw5_optional/optional%20img/15.png)
+![](https://github.com/Coldtee/AIoT_hw5_optional/blob/master/aiot_hw5_optional/optional%20img/16.gif)
+

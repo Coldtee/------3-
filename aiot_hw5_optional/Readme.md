@@ -50,4 +50,16 @@ numpy
 ![](https://github.com/Coldtee/AIoT_hw5_optional/blob/master/aiot_hw5_optional/optional%20img/16.gif)
 
 ## Step 7 : Heroku & Github 連結
+![](https://github.com/Coldtee/AIoT_hw5_optional/blob/master/aiot_hw5_optional/optional%20img/17.png)
+![](https://github.com/Coldtee/AIoT_hw5_optional/blob/master/aiot_hw5_optional/optional%20img/18.png)
+![](https://github.com/Coldtee/AIoT_hw5_optional/blob/master/aiot_hw5_optional/optional%20img/19.png)
+![](https://github.com/Coldtee/AIoT_hw5_optional/blob/master/aiot_hw5_optional/optional%20img/20.png)
 
+因為我是用自己組別的HW5，又Heroku deploy brench需要requirementS和runtime等來判斷語言，所以複製老師的檔案，才能Deploy成功。
+沒有requirements.txt(s很重要):
+![](https://github.com/Coldtee/AIoT_hw5_optional/blob/master/aiot_hw5_optional/optional%20img/21.png)
+有requirements.txt，成功(s很重要):
+![](https://github.com/Coldtee/AIoT_hw5_optional/blob/master/aiot_hw5_optional/optional%20img/22.png)
+![](https://github.com/Coldtee/AIoT_hw5_optional/blob/master/aiot_hw5_optional/optional%20img/23.png)
+
+## Step 8 : 成果

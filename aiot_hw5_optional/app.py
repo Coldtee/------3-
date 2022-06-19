@@ -41,16 +41,19 @@ def getData():
     import pandas as pd                     # 引用套件並縮寫為 pd
     import numpy as np
 
-    import pymysql.cursors
+    #import pymysql.cursors
+
+    import psycopg2
+
     #db = mysql.connector.connect(host="140.120.15.45",user="toto321", passwd="12345678", db="lightdb")
     #conn = mysql.connector.connect(host=myserver,user=myuser, passwd=mypassword, db=mydb)
-    conn = pymysql.connect(host=myserver,user=myuser, passwd=mypassword, db=mydb)
+    conn = psycopg2.connect(host=myserver,user=myuser, passwd=mypassword, db=mydb)
 
     c = conn.cursor()
  
 
     #====== 執行 MySQL 查詢指令 ======#
-    c.execute("update sensors set value = RAND()*1000 where true")
+    c.execute("update sensors set value = RANDOM()*1000 where true")
     conn.commit()
     
     c.execute("SELECT * FROM sensors")

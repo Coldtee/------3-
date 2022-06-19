@@ -2,7 +2,7 @@
 組員：黃志翰、陳璽文、秦立謙
 
 ## Step 1 : Git clone & environment setting
-首先先將我們HW5的成果clone下來(不是使用老師的L16檔案)，並安裝需要的套件(Heidi SQL + pip install)
+首先先將我們HW5的成果clone下來(不是使用老師的L16檔案)，並安裝需要的套件(Heidi SQL + pip install + Herohu Sign up)
 
 pip install 
 gunicorn   

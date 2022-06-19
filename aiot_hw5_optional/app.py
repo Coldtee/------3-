@@ -4,6 +4,11 @@ from six.moves import urllib
 import json
  
 app = Flask(__name__)
+
+myserver ="ec2-52-72-56-59.compute-1.amazonaws.com"
+myuser="bvyiydacdxcyem"
+mypassword="56bd10cef3488e450f832a68ca95d48b66dde8acf8e6fe3edef54dee416d4ad3"
+mydb="d81ofdtom5e23d"
  
 @app.route("/data.json")
 def data():

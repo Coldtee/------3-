@@ -63,3 +63,5 @@ numpy
 ![](https://github.com/Coldtee/AIoT_hw5_optional/blob/master/aiot_hw5_optional/optional%20img/23.png)
 
 ## Step 8 : 成果
+同樣因為我是用自己組別的HW5，所以要加入Procfile(不是txt檔，否則會出現app error!)
+![](https://github.com/Coldtee/AIoT_hw5_optional/blob/master/aiot_hw5_optional/optional%20img/24.png)

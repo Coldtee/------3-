@@ -5,10 +5,7 @@
 -- Host: 127.0.0.1
 -- Generation Time: May 03, 2020 at 06:38 AM
 -- Server version: 10.1.13-MariaDB
--- PHP Version: 5.6.21
-
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET time_zone = "+00:00";
+-- PHP Version: 5.6.2
 
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -26,20 +23,20 @@ SET time_zone = "+00:00";
 -- Table structure for table `sensors`
 --
 
-CREATE TABLE `sensors` (
-  `id` int(11) NOT NULL,
-  `time` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  `value` int(11) DEFAULT '0',
-  `temp` float DEFAULT '0',
-  `humi` float DEFAULT '0',
-  `status` int(11) DEFAULT '0'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT;
+CREATE TABLE sensors (
+  id int NOT NULL PRIMARY KEY,
+  time timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  value int DEFAULT '0',
+  temp float DEFAULT '0',
+  humi float DEFAULT '0',
+  status int DEFAULT '0'
+) ;
 
 --
 -- Dumping data for table `sensors`
 --
 
-INSERT INTO `sensors` (`id`, `time`, `value`, `temp`, `humi`, `status`) VALUES
+INSERT INTO sensors (id, time, value, temp, humi, status) VALUES
 (1, '2019-10-18 01:08:27', 1000, 26, 99, 1),
 (2, '2019-10-18 01:08:27', 979, 70, 58, 1),
 (3, '2019-10-18 01:08:27', 859, 12, 89, 0),
@@ -96,18 +93,13 @@ INSERT INTO `sensors` (`id`, `time`, `value`, `temp`, `humi`, `status`) VALUES
 --
 -- Indexes for table `sensors`
 --
-ALTER TABLE `sensors`
-  ADD PRIMARY KEY (`id`);
-
 --
 -- AUTO_INCREMENT for dumped tables
 --
 
 --
 -- AUTO_INCREMENT for table `sensors`
---
-ALTER TABLE `sensors`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=49;
+--sensorssensorssensorssensors
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
